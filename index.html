@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typoraid - Typing Speed Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Typoraid</h1>
+
+    <!-- Timer Buttons -->
+    <div class="timer-buttons">
+      <button data-time="15">15s</button>
+      <button data-time="30" class="active">30s</button>
+      <button data-time="60">60s</button>
+      <button data-time="120">120s</button>
+    </div>
+
+    <!-- Typing Box -->
+    <div id="typing-box" tabindex="0"></div>
+
+    <!-- Result -->
+    <div id="result" class="result">WPM: <span id="wpm">0</span></div>
+
+    <!-- Hints -->
+    <div class="hints">Press <kbd>Tab</kbd> + <kbd>Enter</kbd> to restart</div>
+
+    <!-- Ad Placeholder -->
+    <div class="ad-placeholder">🟨 Ad will appear here (Google AdSense ready)</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
